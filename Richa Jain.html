@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richa Jain</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Teacher">
+    <h2>OUR LOVED CLASS TEACHER</h2>
+    <h1>Ms. RICHA JAIN</h1>
+        </div>
+    
+    <div class="content">
+        <h5>Ms. Richa Jain is a dedicated and inspiring mathematics teacher who has made a significant impact on our learning.</h5>
+        <h10>.</h10>
+        <h5>She explains every concept with clarity, using simple methods that help us understand even the most difficult topics. </h5>
+        <h5>.</h5>
+        <h5>Her teaching style is interactive and engaging, which keeps us focused and interested throughout the class.</h5>
+        <h5>.</h5>
+        <h5>Ms. Richa Jain ensures that each student is involved by encouraging us to ask questions and guiding us patiently until we get the correct solution. </h5>
+        <h5>.</h5>
+        <h5>She helps us solve every question with step-by-step explanations and makes sure we gain confidence in our problem-solving abilities.</h5>
+        <h5>.</h5>
+        <h5>Her friendly nature and willingness to help outside class hours make her truly special.</h5>
+        <h5>.</h5>
+      <h5> Thanks to her efforts, we've developed a stronger foundation in maths and a greater love for the subject.</h5>
+      <h5>.</h5>
+        <h5> We feel fortunate to have Ms. Richa Jain as our teacher, and we truly appreciate her dedication and hard work.</h5>
+        <h5></h5>
+       <a href="index.html">
+          <button>"Home"</button>
+         </a>
+
+    </div>
+    <footer>
+       
+    <script>
+  document.body.addEventListener('click', function (e) {
+    for (let i = 0; i < 5; i++) {
+      const flower = document.createElement('div');
+      flower.classList.add('flower');
+
+      flower.style.left = (e.clientX + Math.random() * 100 - 50) + 'px';
+      flower.style.animationDelay = `${i * 0.1}s`;
+
+      document.body.appendChild(flower);
+
+      setTimeout(() => {
+        flower.remove();
+      }, 3000);
+    }
+  });
+</script>
+
+</body>
+</html>

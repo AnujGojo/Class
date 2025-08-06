@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-y: auto;
+  background: relative;
+  background-repeat: no-repeat;
+  background-size:cover;
+  overflow-x: hidden;
+  padding: 10px;
+  background-image: url("gradient-shapes-abstract-minimalism-wallpaper-preview.jpg");/* Smooth chemistry gradient */
+}
+
+button:hover {
+  transform: scale(1.25);
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+button{
+    
+    display: inline-block;
+    background-color: #67ee6e;
+    color: white;
+    padding: 12px 25px;
+   margin: 12px 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    }
+
+.Teacher {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0f7fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.Teacher h1 {
+  margin: 10px 0 0 0;
+  font-size: 2.5rem;
+  color: #d63384;
+}
+
+.Teacher h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+.content {
+  margin-top: 160px;
+  padding: 20px;
+  text-align: center;
+  background-image: url("Screenshot\ \(5\).png");
+  background-size: cover;
+  background-position: top center;
+  background-attachment: scroll;
+  color: black;
+}
+
+/* Flower animation */
+.flower {
+  position: absolute;
+  top: 0;
+  width: 70px;
+  height: 40px;
+  background-image: url('testtube.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  animation: fall 3s linear forwards;
+  z-index: 1000;
+}
+
+@keyframes fall {
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}

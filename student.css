@@ -1,0 +1,78 @@
+.special-image {
+  display: flex; /* Side-by-side layout */
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* space between the two images */
+  margin-top: 40px;
+  flex-wrap: wrap; /* allows wrapping on small screens */
+}
+
+.special-image img {
+  width: 100%;
+  max-width: 450px; /* 🟢 Increase this for bigger size */
+  height: auto;
+  display: block;
+  border: 2px solid white;
+  border-radius: 10px;
+  flex-shrink: 1;
+}
+
+.special-image1:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 5px 5px rgba(241, 239, 239, 0.3);
+
+}
+
+.special-image2:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 5px 5px rgba(241, 239, 239, 0.3);
+
+}
+
+
+
+
+body {
+    background-image: url("gradient-shapes-abstract-minimalism-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px;
+    padding: 7%;
+    overflow-x: hidden;
+}
+
+
+.Students{
+ text-align:center;
+  align-items: baseline;
+  font-size: 25px;
+  padding: 5px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  background-size: cover;
+  z-index: 10; 
+   padding: 10px;
+  color: #FFD700;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+button:hover {
+  transform: scale(1.25 );
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+button{
+    
+    display: inline-block;
+    background-color: #0ec4e4;
+    color: white;
+    padding: 12px 25px;
+   margin: 12px 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    }
+

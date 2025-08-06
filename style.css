@@ -1,0 +1,211 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-y: auto;
+  background: relative;
+  background-repeat: no-repeat;
+  background-size:cover;
+  overflow-x: hidden;
+  padding: 10px;
+  background-image: url("gradient-shapes-abstract-minimalism-wallpaper-preview.jpg");/* Smooth chemistry gradient */
+}
+
+.Footer{
+  color: #CCCCCC;  /* Softer than pure white */
+  font-size: 14px;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  font-family: monospace;
+}
+.Class {
+  text-align:center;
+  align-items: baseline;
+  font-size: 25px;
+  padding: 25px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-size: cover;
+  z-index: 10; /* so it stays above other content */
+  background-image: url("gradient-shapes-abstract-minimalism-wallpaper-preview.jpg");/* Or whatever your page bg is */
+  padding: 10px;
+  color: #FFD700;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Class.button {
+  text-decoration: none;
+   color: #ffffff;
+
+}
+button:hover {
+  transform: scale(1.25 );
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+
+
+
+button{
+    
+    display: inline-block;
+    background-color: #9c59d1;
+    color: white;
+    padding: 12px 25px;
+   margin: 12px 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    }
+.Teacher {
+  text-align: center;
+  padding: 20px;
+  background-color: #fd9898;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.special-image {
+  position: relative;
+  display: inline-block;
+  width: 60%; /* or adjust as needed */
+  margin: 20px auto;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+/* On hover, scale the whole block */
+.special-image:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 10px 10px rgba(241, 239, 239, 0.3);
+
+}
+
+.special-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Caption styling */
+.Caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #07eeee;
+  padding: 15px;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+
+.about {
+  margin-top: 160px;
+  padding: 20px;
+  text-align: center;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: scroll;
+  color: #20B2AA;
+  font-weight: bold;
+  line-height: 2;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 15px;
+}
+
+/* The hover effect */
+.about:hover {
+  transform: scale(1.05);
+  box-shadow: 12px 12px 12px 25px rgba(241, 239, 239, 0.3);
+  background-color: rgba(1, 20, 19, 0.404); 
+
+}
+
+
+.Teacher{
+  background-color: #f8c8dc;
+
+
+}
+
+.Teacher h1 {
+  margin: 10px 0 0 0;
+  font-size: 2.5rem;
+  color: #d63384;
+}
+
+.Teacher h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fb2e2e;
+
+}
+
+.Home.button {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #ad2d6c;
+  cursor: pointer;
+}
+
+
+
+
+.content {
+  margin-top: 160px;
+  padding: 20px;
+  text-align: center;
+  background-image: url('Richa Jain.jpeg'); /* use correct path */
+  background-size: cover;
+  background-position: top center;
+  background-attachment: scroll;
+  background-color: rgb(248, 246, 246); /* dark transparent layer */
+  padding: 20px;
+  color:#ffffff;
+  text-shadow: 1px 1px 2px black;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+
+/* Flower animation */
+.flower {
+  position: absolute;
+  top: 0;
+  width: 70px;
+  height: 70px;
+  background-image: url(images.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  animation: fall 3s linear forwards;
+  z-index: 1000;
+}
+
+@keyframes fall {
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
